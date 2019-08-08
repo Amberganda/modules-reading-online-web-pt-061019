@@ -6,8 +6,6 @@ class Kid
 
     extend FancyDance::ClassMethods
     include FancyDance::InstanceMethods
-
-
     include Dance
 
     attr_accessor :name
